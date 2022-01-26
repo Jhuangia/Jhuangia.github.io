@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins&display=swap');
+
+body {
+  font-size: calc(1rem + .1vw);
+  color:#343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: calc(2.5rem + .3vw);
+  color: #FFE66D;
+}
+
+h2 {
+  font-size: calc(1.8rem + .2vw);
+}
+
+h3 {
+  font-size: calc(1.5rem + .1vw);
+}
+
+.card {
+  border: solid;
+  border-color: black;
+}
+
+.contact-link {
+  color: #FFE66D;
+}
+
+.contact-link:link {
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.icon {
+  max-width:15%;
+  float:right;
+  border-radius:50%;
+}
+
+.nav-link {
+  color:white;
+}
+
+.sub-card {
+  background-color: #F7FFF7;
+  border-radius: 2%;
+}
+
+.sub-card-img {
+  width: 100%;
+  height: calc(2em + 15vw);
+  object-fit: cover;
+  border-bottom: solid;
+  border-color: #343434;
+}
+
+#background {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+
+#email {
+  color: #FFE66D;
+}
+
+#main-card {
+  background-color: #20213f;
+  border-color: #111127;
+}
+
+#profile-card {
+  background-color:inherit;
+  border: none;
+}
+
+#profile-body {
+  color: #F7FFF7;
+  background-color:inherit;
+  width: 100%;
+}
+
+#profile-picture {
+  width: 20%;
+  height: calc(1em + 20vw);
+  object-fit: cover;
+  border-radius:9%;
+}
+
